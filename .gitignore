@@ -1,0 +1,16 @@
+# PyCharm
+.idea/
+*.iml
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Базы данных
+*.sqlite
+*.sqlite3

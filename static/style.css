@@ -1,0 +1,46 @@
+/* Дополнительные стили поверх Bootstrap. */
+
+body {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.app {
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1f2328;
+}
+
+.sidebar .nav-link {
+    color: #adb5bd;
+    border-radius: .5rem;
+    margin-bottom: .25rem;
+}
+
+.sidebar .nav-link:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .08);
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background-color: #0d6efd;
+}
+
+.content {
+    background-color: #fff;
+}
+
+.thumbnail {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        width: 100%;
+    }
+}
